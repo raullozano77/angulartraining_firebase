@@ -1,0 +1,10 @@
+<p>Add Producto</p>
+<form (ngSubmit)="agregarProductoEditado()">
+    <input type="text" class="form-control" name="name" placeholder="Nombre Producto" [(ngModel)]="productoEditar.nombre" /><br />
+    <input type="text" class="form-control" name="marca" placeholder="Marca del Producto" [(ngModel)]="productoEditar.marca" /><br />
+    <input type="text" class="form-control" name="precio" placeholder="Precio del Producto" [(ngModel)]="productoEditar.precio" /><br />
+    <button class="btn btn-warning" type="submit">Agregar Producto</button>
+</form>
+<p>{{productoEditar.nombre}}</p>
+<p>{{productoEditar.marca}}</p>
+<p>${{productoEditar.precio}}.00</p>

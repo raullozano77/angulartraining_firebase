@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "cotosoftapp": {
+      "hosting": {
+        "FireBaseApp": [
+          "cotosoftapp"
+        ]
+      }
+    }
+  }
+}
